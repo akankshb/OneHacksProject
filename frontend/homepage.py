@@ -23,8 +23,8 @@ with col8:
 
 if st.session_state.page == "Home":
     with col2:
-        st.title("App Name")
-        st.subheader("slogan")
+        st.title("App Name", use_container_width=True)
+        st.subheader("slogan", use_container_width=True)
 
     with col4:
         if st.button("Generate Practice Tests", use_container_width=True):
@@ -35,7 +35,7 @@ if st.session_state.page == "Home":
             st.session_state.page = "Study Guides"
 
     with col2: 
-        st.subheader("Available AP Exams:")
+        st.subheader("Available AP Exams:", use_container_width=True)
 
     ap_exams = [
         "AP Chemistry",
