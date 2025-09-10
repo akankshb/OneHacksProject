@@ -20,7 +20,8 @@ def clean_text(raw_text: str) -> str:
         r"permission of the publisher.*",
         r"printed in [A-Za-z]+.*",
         r"© 2025 College Board.",
-        r"Visit College Board on the web: collegeboard.org"
+        r"Visit College Board on the web: collegeboard.org",
+        
     ]
 
     for pattern in boilerplate_patterns:
