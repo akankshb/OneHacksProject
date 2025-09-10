@@ -29,8 +29,18 @@ with col2:
     st.subheader("Available AP Exams:")
 
 ap_exams = [
-    "AP Chemistry"
+    "AP Chemistry",
+    "AP Biology",
+    "AP Calculus AB",
+    "AP Calculus BC",
+    "AP World History",
+    "AP US History"
 ]
 
-for exam in ap_exams:
-    st.button(exam)
+rows = (len(ap_exams) + 2) // 3
+for i in range(rows):
+    cols = st.columns(3)
+    for j in range(3):
+        index = i * 3 + j
+        if index < len(ap_exams):
+            cols[j + 5].button(ap_exams[index])
