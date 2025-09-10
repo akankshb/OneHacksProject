@@ -11,7 +11,6 @@ if st.button("Generate real practice tests with answer keys and explanations."):
 if st.button("Access study guides"):
     pass
 
-st.write("---")
 st.subheader("Available AP Exams:")
 
 ap_exams = [
