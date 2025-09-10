@@ -1,9 +1,22 @@
 import streamlit as st
 
-st.title("TBD APP")
+st.title("knowt")
+st.subheader("slogan or fact")
 
-st.write("Aadi Goel is a bum")
 
-x = st.text_input("What comes after 6?")
 
-st.write(f"6{x}")
+if st.button("Generate real practice tests with answer keys and explanations."):
+    pass
+
+if st.button("Access study guides"):
+    pass
+
+st.write("---")
+st.subheader("Available AP Exams:")
+
+ap_exams = [
+    "AP Chemistry"
+]
+
+for exam in ap_exams:
+    st.button(exam)
