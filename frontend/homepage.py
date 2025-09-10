@@ -3,8 +3,6 @@ import streamlit as st
 st.title("knowt")
 st.subheader("slogan or fact")
 
-
-
 if st.button("Generate real practice tests with answer keys and explanations."):
     pass
 
