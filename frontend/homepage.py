@@ -14,12 +14,6 @@ with col4:
 with col5:
     st.button("Access study guides")
 
-if st.button("Generate real practice tests with answer keys and explanations."):
-    pass
-
-if st.button("Access study guides"):
-    pass
-
 st.subheader("Available AP Exams:")
 
 ap_exams = [
