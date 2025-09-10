@@ -6,6 +6,8 @@ st.subheader("slogan or fact")
 
 with col1:
     st.button("Generate real practice tests with answer keys and explanations.")
+
+
 with col2:
     st.button("Access study guides")
 
