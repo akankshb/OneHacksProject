@@ -7,23 +7,23 @@ col4, col5 = st.columns([1, 1])
 col6, col7, col8 = st.columns([1, 1, 1])
 
 with col6:
-    st.button("Home")
+    st.button("Home", use_container_width=True)
 
 with col7:
-    st.button("Practice Tests")
+    st.button("Practice Tests", use_container_width=True)
 
 with col8:
-    st.button("Study Guides")
+    st.button("Study Guides", use_container_width=True)
 
 with col2:
     st.title("App Name")
     st.subheader("slogan")
 
 with col4:
-    st.button("Generate Practice Tests")
+    st.button("Generate Practice Tests", use_container_width=True)
 
 with col5:
-    st.button("Access Study Guides")
+    st.button("Access Study Guides", use_container_width=True)
 
 with col2: 
     st.subheader("Available AP Exams:")
@@ -43,4 +43,4 @@ for i in range(rows):
     for j in range(3):
         index = i * 3 + j
         if index < len(ap_exams):
-            cols[j + 5].button(ap_exams[index])
+            cols[(j)].button(ap_exams[index])
