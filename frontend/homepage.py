@@ -1,19 +1,38 @@
 import streamlit as st
 
-st.title("knowt")
-st.subheader("slogan or fact")
+col1, col2, col3 = st.columns([1, 2, 1])
 
-if st.button("Generate real practice tests with answer keys and explanations."):
-    pass
+col4, col5 = st.columns([1, 1])
 
-if st.button("Access study guides"):
-    pass
+col6, col7, col8 = st.columns([1, 2, 1])
+with col2:
+        st.title("App Name")
+        st.subheader("slogan")
 
-st.subheader("Available AP Exams:")
+with col4:
+    if st.button("Generate Practice Tests", use_container_width=True):
+        st.session_state.page = "Practice Tests"
 
-ap_exams = [
-    "AP Chemistry"
-]
+with col5:
+    if st.button("Access Study Guides", use_container_width=True):
+        st.session_state.page = "Study Guides"
 
-for exam in ap_exams:
-    st.button(exam)
+with col7: 
+    st.subheader("Available AP Exams:")
+
+    ap_exams = [
+        "AP Chemistry",
+        "AP Biology",
+        "AP Calculus AB",
+        "AP Calculus BC",
+        "AP World History",
+        "AP US History"
+    ]
+
+    rows = (len(ap_exams) + 2) // 3
+    for i in range(rows):
+        cols = st.columns(3)
+        for j in range(3):
+            index = i * 3 + j
+            if index < len(ap_exams):
+                cols[j].button(ap_exams[index], use_container_width=True)
