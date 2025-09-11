@@ -1,29 +1,11 @@
 import streamlit as st
 
-if "page" not in st.session_state:
-    st.session_state.page = "Home"
-    
-col6, col7, col8 = st.columns([1, 1, 1])
-
 col1, col2, col3 = st.columns([1, 2, 1])
 
 col4, col5 = st.columns([1, 1])
 
 
-with col6:
-    if st.button("Home", use_container_width=True):
-        st.session_state.page = "Home"
-
-with col7:
-    if st.button("Practice Tests", use_container_width=True):
-        st.session_state.page = "Practice Tests"
-
-with col8:
-    if st.button("Study Guides", use_container_width=True):
-        st.session_state.page = "Study Guides"
-
-if st.session_state.page == "Home":
-    with col2:
+with col2:
         st.title("App Name")
         st.subheader("slogan")
 
@@ -54,13 +36,3 @@ with col2:
             index = i * 3 + j
             if index < len(ap_exams):
                 cols[j].button(ap_exams[index], use_container_width=True)
-
-elif st.session_state.page == "Practice Tests":
-    with col2:
-        st.header("Practice Tests")
-        st.write("Placeholder for practice test generation page.")
-
-elif st.session_state.page == "Study Guides":
-    with col2:
-        st.header("Study Guides")
-        st.write("Placeholder for study guide page.")
