@@ -11,12 +11,11 @@ with col2:
 
 with col4:
     if st.button("Generate Practice Tests", use_container_width=True):
-        st.session_state.page = "Practice Tests"
+       st.switch_page("Practice Tests")
 
 with col5:
     if st.button("Access Study Guides", use_container_width=True):
-        st.session_state.page = "Study Guides"
-
+       st.switch_page("Study Guides")
 with col7: 
     st.subheader("Available AP Exams:")
 
