@@ -9,7 +9,8 @@ pg = st.navigation(
     "Home": [home_page], 
     "Generate Test": [test_page], 
     "Generate Study Guide": [study_page]
-  }
+  },
+  position="top"
 )
 
 pg.run()
