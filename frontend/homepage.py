@@ -27,16 +27,16 @@ if st.session_state.page == "Home":
         st.title("App Name")
         st.subheader("slogan")
 
-    with col4:
-        if st.button("Generate Practice Tests", use_container_width=True):
-            st.session_state.page = "Practice Tests"
+with col4:
+    if st.button("Generate Practice Tests", use_container_width=True):
+        st.session_state.page = "Practice Tests"
 
-    with col5:
-        if st.button("Access Study Guides", use_container_width=True):
-            st.session_state.page = "Study Guides"
+with col5:
+    if st.button("Access Study Guides", use_container_width=True):
+        st.session_state.page = "Study Guides"
 
-    with col2: 
-        st.subheader("Available AP Exams:")
+with col2: 
+    st.subheader("Available AP Exams:")
 
     ap_exams = [
         "AP Chemistry",
