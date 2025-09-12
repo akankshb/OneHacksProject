@@ -1,44 +1,48 @@
 import re
 
-def clean_text(raw_text: str) -> str:
-# Insert double newline before [D####] + keep title on same line
-    # Look for [D####] followed by text (the title) until the next [D or end of text
-    text = re.sub(r'\[D\d+\]\s*[^[]+', lambda m: '\n\n' + m.group(0).strip() + '\n', raw_text)
-
-    # Normalize spaces **without removing newlines**
-    text = re.sub(r'[ \t]+', ' ', text)  # compress spaces/tabs
-
-
-    # Remove common legal boilerplate phrases
-    boilerplate_patterns = [
-        r"all rights reserved.*",
-        r"no part of this publication.*",
-        r"this material is provided.*",
-        r"without warranty of any kind.*",
-        r"disclaimer.*",
-        r"reproduced, stored in.*",
-        r"permission of the publisher.*",
-        r"printed in [A-Za-z]+.*",
-        r"© 2025 College Board.",
-        r"Visit College Board on the web: collegeboard.org",
-        
+def clean_text_keep_content(text: str) -> str:
+    # 1. Remove obvious boilerplate lines (safe single-line deletes)
+    line_remove_patterns = [
+        r"^© ?\d{4}.*",              # copyright lines
+        r"^Return to Table of Contents$", 
+        r"^THIS PAGE IS INTENTIONALLY LEFT BLANK\.$", 
+        r"^College Board.*$", 
+        r"^Visit College Board.*$"
     ]
+    for pattern in line_remove_patterns:
+        text = re.sub(pattern, "", text, flags=re.MULTILINE|re.IGNORECASE)
 
-    for pattern in boilerplate_patterns:
-        text = re.sub(pattern, '', text, flags=re.IGNORECASE)
+    # 2. Normalize whitespace
+    text = re.sub(r"\n{2,}", "\n", text)       # collapse multiple newlines
+    text = re.sub(r"[ \t]+", " ", text)        # collapse multiple spaces/tabs
+    text = re.sub(r" ?\n ?", "\n", text)       # clean spaces around newlines
 
-    # Clean up extra spaces/newlines
-    text = re.sub(r'\n\s*\n+', '\n\n', text)  # normalize paragraph breaks
-    text = re.sub(r' +', ' ', text).strip()
+    # 3. Ensure [D#] markers always start on a new line
+    text = re.sub(r"(\[D\d+\])", r"\n\1", text)
 
-    return text
+    # 4. Shorten common long phrases (safe replacements)
+    replacements = {
+        "Advanced Placement Program": "AP",
+        "multiple-choice": "MCQ",
+        "free-response": "FRQ",
+    }
+    for k, v in replacements.items():
+        text = text.replace(k, v)
 
+    # 5. Remove acknowledgments *names only*, not everything after
+    text = re.sub(r"Acknowledgments\n.*?(?=\n[A-Z])", "Acknowledgments\n", text, flags=re.DOTALL)
 
-with open("data/APCHEM.txt", 'r') as f:
-    text = f.read()
-    text = clean_text(text)
-    f.close()
+    return text.strip()
 
-with open("data/APCHEM.txt", 'w') as f:
-    f.write(text)
-    f.close()
+# Example usage
+with open("./data/APCHEM.txt", "r", encoding="utf-8", errors="ignore") as f:
+    raw_text = f.read()
+
+cleaned_text = clean_text_keep_content(raw_text)
+
+# Save
+with open("./data/APCHEM_courseguide_cleaned.txt", "w", encoding="utf-8") as f:
+    f.write(cleaned_text)
+print(f"Original length: {len(raw_text)}")
+print(f"Cleaned length: {len(cleaned_text)}")
+print("Done. File saved.")

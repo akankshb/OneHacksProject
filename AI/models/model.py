@@ -13,7 +13,7 @@ load_dotenv()
 # Init OpenAI
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-with open("../data/APCHEM.txt", 'r') as f:
+with open("./data/APCHEM.txt", 'r') as f:
     content_pack = f.read()
 
 # --- 3. Query function ---
