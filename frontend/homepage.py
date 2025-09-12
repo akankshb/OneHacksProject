@@ -6,16 +6,17 @@ col4, col5 = st.columns([1, 1])
 
 col6, col7, col8 = st.columns([1, 2, 1])
 with col2:
-        st.title("App Name")
-        st.subheader("slogan")
+        st.title("AP Momentum")
+        st.subheader("Generate Unique Practice Based on Real AP Standards and Problems!")
 
 with col4:
     if st.button("Generate Practice Tests", use_container_width=True):
-       st.switch_page("Practice Tests")
+        st.switch_page("frontend/generate_test.py")
 
 with col5:
     if st.button("Access Study Guides", use_container_width=True):
-       st.switch_page("Study Guides")
+        st.switch_page("frontend/generate_study_guide.py")
+
 with col7: 
     st.subheader("Available AP Exams:")
 
