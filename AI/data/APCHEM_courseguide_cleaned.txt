@@ -1,9 +1,9 @@
 System:
 You're tasks are to create full length AP Chemistry tests or short tests for a specific topic, similar to the documents that have been provided. Only the past FRQs have been provided; therefore, you will need to create the MCQ section yourself: 60 MCQ and 7 FRQ for full AP tests. Only create questions that test the topics provided in the document.
+
 [D1]: Scoring Guide 2024
 AP® Chemistry
 Scoring Guidelines
-© 2024 College Board. College Board, Advanced Placement, AP, AP Central, and the acorn logo are registered
 trademarks of College Board. Visit College Board on the web: collegeboard.org.
 AP Central is the official online home for the AP Program: apcentral.collegeboard.org.
 AP® Chemistry 2024 Scoring Guidelines
@@ -30,7 +30,6 @@ For a curve with appropriate initial and final pH with a correct shape: 1 point
 The drawn curve should begin at the same pH, gradually increase, rise sharply at a
 volume different than 16 mL, and end at a pH similar to the first curve.
 Total for part (d) 4 points
-© 2024 College Board
 AP® Chemistry 2024 Scoring Guidelines
 (e) (i) For the correct calculated value: 1 point
 q = mc∆T = (200.0 g)(4.2 J/(g⋅°C))(23.2°C − 20.0°C) = 2700 J
@@ -49,7 +48,6 @@ results in values of ∆T , q , and ∆H that are smaller than the actual value.
 soln
 Total for part (e) 3 points
 Total for question 1 10 points
-© 2024 College Board
 AP® Chemistry 2024 Scoring Guidelines
 Question 2: Long Answer 10 points
 (a) (i) For the correct calculated value: 1 point
@@ -97,7 +95,6 @@ The entropy change is positive because the aqueous reactants produce 2 moles of 
 particles, according to the balanced chemical equation. Gases are far more dispersed
 (occupy a greater number of microstates) than condensed phases, so the entropy of the
 products is greater than that of the reactants.
-© 2024 College Board
 AP® Chemistry 2024 Scoring Guidelines
 (e) For the correct answer and a valid justification: 1 point
 Accept one of the following:
@@ -133,7 +130,6 @@ a2
 [HC H O ]
 4 2 4
 Total for question 2 10 points
-© 2024 College Board
 AP® Chemistry 2024 Scoring Guidelines
 Question 3: Long Answer 10 points
 (a) For the correct answer: 1 point
@@ -176,7 +172,6 @@ For the correct calculated value of time: 1 point
 1 mol e − 2.0 C
 Total for part (e) 2 points
 Total for question 3 10 points
-© 2024 College Board
 AP® Chemistry 2024 Scoring Guidelines
 Question 4: Short Answer 4 points
 (a) For the correct answer, reported to the correct decimal place: 1 point
@@ -205,7 +200,6 @@ metal
 Thus, ∆T < ∆T
 Al metal
 Total for question 4 4 points
-© 2024 College Board
 AP® Chemistry 2024 Scoring Guidelines
 Question 5: Short Answer 4 points
 (a) For the correct expression: 1 point
@@ -231,7 +225,6 @@ gaseous reactants and products in the balanced chemical equation, there is no sh
 in the equilibrium position, and the number of moles of HI will remain the same.
 Total for part (b) 3 points
 Total for question 5 4 points
-© 2024 College Board
 AP® Chemistry 2024 Scoring Guidelines
 Question 6: Short Answer 4 points
 (a) For a correct explanation: 1 point
@@ -260,7 +253,6 @@ angle of approximately 120. The hybridization of N in NO + is sp, which
 would result in a bond angle of 180.
 Total for part (c) 2 points
 Total for question 6 4 points
-© 2024 College Board
 AP® Chemistry 2024 Scoring Guidelines
 Question 7: Short Answer 4 points
 (a) For the correct calculated value: 1 point
@@ -276,16 +268,13 @@ Total for part (b) 2 points
 It would decrease. The solvent front will not travel as far in the second experiment, so the
 separation will be smaller.
 Total for question 7 4 points
-© 2024 College Board
+
 [D2]: Free Response 2024
 AP® Chemistry
 Free-Response Questions
-© 2024 College Board. College Board, Advanced Placement, AP, AP Central, and the acorn logo are registered
 trademarks of College Board. Visit College Board on the web: collegeboard.org.
 AP Central is the official online home for the AP Program: apcentral.collegeboard.org.
 AP® Chemistry 2024 Free-Response Questions
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 2
 AP® Chemistry 2024 Free-Response Questions
 AP® CHEMISTRY EQUATIONS AND CONSTANTS
@@ -342,8 +331,6 @@ t 0
 0.693
 t ½ =
 k
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 3
 AP® Chemistry 2024 Free-Response Questions
 GASES, LIQUIDS, AND SOLUTIONS
@@ -408,8 +395,6 @@ RT
 E cell = E c o e ll - nF lnQ 1 joule
 1 volt =
 1 coulomb
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 4
 AP® Chemistry 2024 Free-Response Questions
 Begin your response to QUESTION 1 on this page.
@@ -417,8 +402,8 @@ CHEMISTRY
 SECTION II
 Time—1 hour and 45 minutes
 7 Questions
-Directions: Questions 1–3 are long free-response questions that require about 23 minutes each to answer and are
-worth 10 points each. Questions 4–7 are short free-response questions that require about 9 minutes each to answer
+Directions: Questions 1–3 are long FRQ questions that require about 23 minutes each to answer and are
+worth 10 points each. Questions 4–7 are short FRQ questions that require about 9 minutes each to answer
 and are worth 4 points each.
 For each question, show your work for each part in the space provided after that part. Examples and equations may
 be included in your responses where appropriate. For calculations, clearly show the method used and the steps
@@ -434,8 +419,6 @@ readily participates in the chemical reaction with sodium hydroxide.
 (b)The student begins the experiment by dissolving 10.22 g of sodium hydroxide (molar mass 40.00 g / mol) in
 enough water to produce 500. mL of solution. Calculate the molarity of the sodium hydroxide solution.
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 5
 AP® Chemistry 2024 Free-Response Questions
 Continue your response to QUESTION 1 on this page.
@@ -449,8 +432,6 @@ at one point during the titration. (Note that water molecules are omitted.)
 be represented by this diagram.
 (ii)Justify your answer.
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 6
 AP® Chemistry 2024 Free-Response Questions
 Continue your response to QUESTION 1 on this page.
@@ -467,8 +448,6 @@ is 23.2°C. Assume that the density of each solution before combining is 1.00 g 
 capacity of the combined solution is 4.2 J / (g · ° C).
 (i)Calculate the quantity of heat produced in the reaction, in J.
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 7
 AP® Chemistry 2024 Free-Response Questions
 Continue your response to QUESTION 1 on this page.
@@ -478,8 +457,6 @@ rxn
 then the experimental value of the molar enthalpy of reaction will be smaller in magnitude than the
 actual value. Do you agree or disagree with the student’s claim? Justify your answer.
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 8
 AP® Chemistry 2024 Free-Response Questions
 Begin your response to QUESTION 2 on this page.
@@ -508,8 +485,6 @@ required for the dissolving of the solids in the second experiment be longer tha
 same as the time required in the first experiment? Justify your answer based on the collisions between
 particles.
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 9
 AP® Chemistry 2024 Free-Response Questions
 Continue your response to QUESTION 2 on this page.
@@ -525,8 +500,6 @@ Trial Mass of H 2 C 4 H 2 O 4 M ass of NaHCO 3 Moles of CO 2 Produced
 (d)The reaction has a value of ΔS° greater than zero. Using particle-level reasoning, explain why the entropy
 increases as the reaction progresses.
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 10
 AP® Chemistry 2024 Free-Response Questions
 Continue your response to QUESTION 2 on this page.
@@ -556,8 +529,6 @@ in this solution.
 [HC H O −]
 4 2 4
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 11
 AP® Chemistry 2024 Free-Response Questions
 Begin your response to QUESTION 3 on this page.
@@ -578,8 +549,6 @@ Atomic radius (pm) 165 145
 (ii)Using principles of atomic structure and Coulomb’s law, explain why silver has a larger atomic radius
 than copper does.
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 12
 AP® Chemistry 2024 Free-Response Questions
 Continue your response to QUESTION 3 on this page.
@@ -607,8 +576,6 @@ O (g ) + 4H + (aq) + 4e − → 2H O(l ) +1.23
 (ii)Calculate the value of E for the reaction in part (d)(i).
 cell
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 13
 AP® Chemistry 2024 Free-Response Questions
 Continue your response to QUESTION 3 on this page.
@@ -617,8 +584,6 @@ source.
 (e)Calculate the length of time, in seconds, required to plate 2.8 g of Rh(s )onto a piece of sterling silver if
 2.0 C / s of current is applied.
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 14
 AP® Chemistry 2024 Free-Response Questions
 Begin your response to QUESTION 4 on this page.
@@ -632,8 +597,6 @@ is shown. The length of the arrows in the Before diagram represents the speed of
 system. In the After diagram, draw an arrow for each molecule to indicate how the speed of each of the
 molecules changes after the metal cube is added.
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 15
 AP® Chemistry 2024 Free-Response Questions
 Continue your response to QUESTION 4 on this page.
@@ -645,8 +608,6 @@ aluminum, ΔT , compares with the magnitude of the temperature change of the met
 Al
 experiment.
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 16
 AP® Chemistry 2024 Free-Response Questions
 Begin your response to QUESTION 5 on this page.
@@ -665,8 +626,6 @@ and I (g ) molecules, but the HI(g ) molecules are not included. Draw the number
 2
 needed to complete the diagram so that it accurately represents the system.
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 17
 AP® Chemistry 2024 Free-Response Questions
 Continue your response to QUESTION 5 on this page.
@@ -678,8 +637,6 @@ system.
 temperature. As a result, would the number of moles of HI(g ) increase, decrease, or remain the same?
 Justify your answer.
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 18
 AP® Chemistry 2024 Free-Response Questions
 Begin your response to QUESTION 6 on this page.
@@ -700,8 +657,6 @@ Based on these data, the scientist makes the claim that the rate law for the rea
 Determine the rate of appearance, in M /s, of O at this same point in the reaction.
 2
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 19
 AP® Chemistry 2024 Free-Response Questions
 Continue your response to QUESTION 6 on this page.
@@ -720,8 +675,6 @@ nonbonding electrons.
 2 2
 you agree or disagree with the student’s claim? Justify your answer.
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 20
 AP® Chemistry 2024 Free-Response Questions
 Begin your response to QUESTION 7 on this page.
@@ -742,8 +695,6 @@ Step Step Description and Materials Used
 4.
 5. Stopper and invert the mixture several times to ensure that the mixture is homogeneous.
 GO ON TO THE NEXT PAGE.
-© 2024 College Board.
-Visit College Board on the web: collegeboard.org.
 21
 AP® Chemistry 2024 Free-Response Questions
 Continue your response to QUESTION 7 on this page.
@@ -758,10 +709,10 @@ END OF EXAM
 ©© 22002244 CCoolllleeggee BBooaarrdd..
 VViissiitt CCoolllleeggee BBooaarrdd oonn tthhee wweebb:: ccoolllleeggeebbooaarrdd..oorrgg..
 22
+
 [D3]: Free Response 2025
 AP® Chemistry
 Free-Response Questions
-© 2025 College Board. College Board, Advanced Placement, AP, AP Central, and the acorn logo are registered trademarks
 of College Board. Visit College Board on the web: collegeboard.org.
 AP Central is the official online home for the AP Program: apcentral.collegeboard.org.
 AP CHEMISTRY 2025 n FREE-RESPONSE QUESTIONS
@@ -771,7 +722,7 @@ TIME – 1 HOUR AND 45 MINUTES
 Directions:
 Section II has 7 questions and lasts 1 hour and 45 minutes.
 You may use the available paper for scratch work and planning, but you must write your answers
-in the free-response booklet. Label parts (e.g., A, B, C) and sub-parts (e.g., i, ii, iii) as needed. Use a
+in the FRQ booklet. Label parts (e.g., A, B, C) and sub-parts (e.g., i, ii, iii) as needed. Use a
 pencil or a pen with black or dark blue ink to write your responses.
 For each question, show your work for each part in the space provided for that part in the free-
 response booklet. Examples and equations may be included in your responses where appropriate.
@@ -783,8 +734,8 @@ periodic table and lists of equations and constants, is available in this applic
 accessed throughout the exam.
 You may pace yourself as you answer the questions in this section, or you may use these optional
 timing recommendations:
-Questions 1–3 are long free-response questions. It is suggested that you spend about 23 minutes on
-each of those questions. Questions 4–7 are short free-response questions. It is suggested that you
+Questions 1–3 are long FRQ questions. It is suggested that you spend about 23 minutes on
+each of those questions. Questions 4–7 are short FRQ questions. It is suggested that you
 spend about 9 minutes on each of those questions.
 You can go back and forth between questions in this section until time expires. The clock will turn
 red when 5 minutes remain—the proctor will not give you any time updates or warnings.
@@ -793,8 +744,6 @@ teacher and student use in the classroom.
 During the AP Exam administration, students have access to reference information. To see the
 reference information for this course, please visit AP Central:
 https://apcentral.collegeboard.org/courses/ap-chemistry/exam
-© 2025 College Board.
-Visit College Board on the web: collegeboard.org 2
 AP CHEMISTRY 2025 n FREE-RESPONSE QUESTIONS
 1. Answer the following questions about magnesium.
 A. An incomplete mass spectrum for magnesium is shown in the diagram.
@@ -804,8 +753,6 @@ i. Complete the mass spectrum in part A by drawing thick lines in the appropriat
 to represent the percent abundance of magnesium-25 and magnesium-26.
 ii. Describe the difference in atomic structure that accounts for the difference in mass
 between magnesium-25 and magnesium-26.
-© 2025 College Board.
-Visit College Board on the web: collegeboard.org 3
 AP CHEMISTRY 2025 n FREE-RESPONSE QUESTIONS
 A student prepares a 1.85×10-3 M solution of Mg(NO 3 ) 2 (aq) in beaker 1 and a 2.80×10-4 M
 solution of
@@ -819,8 +766,6 @@ phenomenon using Coulomb’s law and each of the following.
 i. The relative charge of the ions
 ii. The relative radii of the ions
 C. Calculate the pH of the solution in beaker 2.
-© 2025 College Board.
-Visit College Board on the web: collegeboard.org 4
 AP CHEMISTRY 2025 n FREE-RESPONSE QUESTIONS
 D. A student combines 35.00 mL of 1.85×10-3 M Mg(NO 3 ) 2 (aq) with 50.00 mL of
 2.80×10-4
@@ -844,8 +789,6 @@ in beaker 3 approaches equilibrium. Justify your answer.
 F. In a separate experiment, the student adds HNO 3 (aq) to decrease the pH of a saturated
 solution containing undissolved Mg(OH) 2 (s). Does the amount of undissolved Mg(OH) 2 (s)
 increase, decrease, or remain the same as the HNO 3 (aq) is added? Justify your answer.
-© 2025 College Board.
-Visit College Board on the web: collegeboard.org 5
 AP CHEMISTRY 2025 n FREE-RESPONSE QUESTIONS
 2. Answer the following questions about ascorbic acid (vitamin C).
 C H O
@@ -875,8 +818,6 @@ Asc-
 iii. What is the value of the ratio 7 A when the pH of the solution is 4.7?
 HAsc
 7 A
-© 2025 College Board.
-Visit College Board on the web: collegeboard.org 6
 AP CHEMISTRY 2025 n FREE-RESPONSE QUESTIONS
 DHAsc
 C. Dehydroascorbic acid ( ) can be produced by reacting ascorbic acid with the triiodide
@@ -934,8 +875,6 @@ Identify an intermolecular force between I 3 and water that is not present betwe
 -
 water, which could explain the difference in solubility. Lewis diagrams for I 2 and I 3 are
 provided.
-© 2025 College Board.
-Visit College Board on the web: collegeboard.org 7
 AP CHEMISTRY 2025 n FREE-RESPONSE QUESTIONS
 3. White phosphorus is composed of P 4 molecules with a tetrahedral structure, as shown in the
 diagram on the left. Each P atom is bonded to the other three P atoms by single bonds, as shown
@@ -960,8 +899,6 @@ THc
 , and
 TSc
 .
-© 2025 College Board.
-Visit College Board on the web: collegeboard.org 8
 AP CHEMISTRY 2025 n FREE-RESPONSE QUESTIONS
 P 4 O 10 (s) reacts exothermically with water to form phosphoric acid, as represented by
 equation 2.
@@ -999,8 +936,6 @@ r
 xn for equation 2 in
 kJ/mol
 rxn. Include the sign in your answer.
-© 2025 College Board.
-Visit College Board on the web: collegeboard.org 9
 AP CHEMISTRY 2025 n FREE-RESPONSE QUESTIONS
 P O H O
 D. The chemist weighed out 0.100 g 4 10 of and 100.0 g of 2 to perform a second trial. In the
@@ -1035,8 +970,6 @@ TH
 2
 %
 .
-© 2025 College Board.
-Visit College Board on the web: collegeboard.org 10
 AP CHEMISTRY 2025 n FREE-RESPONSE QUESTIONS
 CH OH H CO
 4. A scientist is investigating the properties of a mixture of 3 and 2 . The scientist
@@ -1073,8 +1006,6 @@ OH
 (molar mass 32.04
 g/mol
 ) at its boiling point.
-© 2025 College Board.
-Visit College Board on the web: collegeboard.org 11
 AP CHEMISTRY 2025 n FREE-RESPONSE QUESTIONS
 5. Complete Lewis diagrams and some physical properties for compounds X and Y are given.
 Compound X Y
@@ -1097,8 +1028,6 @@ which compound will have the higher vapor pressure? Justify your answer.
 D. The mixture is heated to in a sealed, rigid 12.5 L container, at which point both
 substances are gases and the total pressure in the container is 2.30 atm. Calculate the number
 of moles of gas particles in the container.
-© 2025 College Board.
-Visit College Board on the web: collegeboard.org 12
 AP CHEMISTRY 2025 n FREE-RESPONSE QUESTIONS
 6. A scientist constructs a galvanic cell as shown in the diagram. As the cell operates, the
 Zn(s)
@@ -1115,8 +1044,6 @@ B. Write the balanced net ionic equation for the overall reaction that occurs in
 C. Initially, each electrode has a mass of 50.0 g. The cell is allowed to run for a period of time
 and is then stopped. Which electrode’s mass changed the most? Justify your answer with a
 calculation.
-© 2025 College Board.
-Visit College Board on the web: collegeboard.org 13
 AP CHEMISTRY 2025 n FREE-RESPONSE QUESTIONS
 Reduction Half-Reaction Ec V
 _ i
@@ -1134,8 +1061,6 @@ that produces a greater voltage. The scientist has access to the chemical system
 Zn
 If the scientist uses the half-cell and one of the other options from the table, what is the
 MAXIMUM voltage that could be generated at standard conditions?
-© 2025 College Board.
-Visit College Board on the web: collegeboard.org 14
 AP CHEMISTRY 2025 n FREE-RESPONSE QUESTIONS
 C H O -
 7. Answer the following questions about the glycolate ion, 2 3 3 , which acts as a base in
@@ -1166,5 +1091,3 @@ C. A student claims that 3 is a catalyst for the reaction. Do you agree or disag
 your answer based on the mechanism given.
 STOP
 END OF EXAM
-© 2025 College Board.
-Visit College Board on the web: collegeboard.org 15

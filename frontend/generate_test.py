@@ -1,4 +1,8 @@
 import streamlit as st
+import sys
+from pathlib import Path
+
+from AI.models.model import ask_cag_model
 
 st.header("Generate Practice Test")
 
@@ -25,3 +29,5 @@ if st.button("Generate Test"):
         st.write("Unit:", selected_unit)
     st.write("Number of questions:", num_questions)
     st.success("Test generated")
+    answer = ask_cag_model("Hello World")
+    st.write(answer)
