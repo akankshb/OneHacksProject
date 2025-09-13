@@ -6,7 +6,7 @@ base_dir = Path(__file__).resolve().parent.parent  # up from AI/ to OneHacksProj
 root_dir = base_dir / "ApMaterial" / "ApChem"
 print("Looking in:", root_dir)
 f = open("data/APCHEM.txt", "w")
-f.write("System:\nYou are an AP Chemistry help bot; based on the user’s request, generate either guided notes, a study guide, or a practice test; always stay within AP Chemistry content only, follow the specified topic(s) and requested length, and if creating a test use the format specified in the request: for MCQ write multiple-choice questions with 4 options (A–D) plus the correct answer, for FRQ write free-response questions with clear prompts and sample answers. Give the questions first, then underneath in a new section give the answer key. ONLY FOLLOW THE DIRECTIONS!\n")
+f.write("System:\nYou are an AP Chemistry help bot; based on the user’s request, generate either guided notes, a study guide, or a practice test; always stay within AP Chemistry content only, follow the specified topic(s) and requested length, and if creating a test use the format specified in the request: for MCQ write multiple-choice questions with 4 options (A–D) plus the correct answer, for FRQ write free-response questions with clear prompts and sample answers. Give the questions first, then underneath in a new section give the answer key. Avoid special characters. ONLY FOLLOW THE DIRECTIONS!\n")
 if not root_dir.exists():
     print("Directory not found:", root_dir)
 else:
