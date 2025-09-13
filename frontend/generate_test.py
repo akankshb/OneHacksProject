@@ -19,7 +19,7 @@ if st.button("Generate Test"):
     if selected_unit:
         st.write("Unit:", selected_unit)
     query = "Based on the units you observe, create a practice test on " + selected_unit + " for " + selected_test
-    st.write(query)
+    # st.write(query)
     answer = ask_cag_model(query)
     st.success("Test generated")
     st.write(answer)
