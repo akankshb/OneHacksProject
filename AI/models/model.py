@@ -13,7 +13,7 @@ def ask_cag_model(user_query):
     # Init OpenAI
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-    with open("./AI/data/APCHEM.txt", 'r') as f:
+    with open("./AI/data/APCHEM_courseguide_cleaned.txt", 'r') as f:
         content_pack = f.read()
 
         prompt = content_pack + f"\n\nUser: {user_query}\n\nAnswer:"

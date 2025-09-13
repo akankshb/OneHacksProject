@@ -12,15 +12,13 @@ selected_test = st.selectbox(
 )
 
 test_type = st.selectbox(
-    "Full course or specific unit?",
-    ["Full Course", "Specific Unit"]
+    "MCQ or Free Response?",
+    ["MCQ", "FRQ"]
 )
 
 selected_unit = None
-if test_type == "Specific Unit":
-    selected_unit = st.selectbox("Select unit:", ["Unit 1", "Unit 2", "Unit 3"])
-
-num_questions = st.slider("Number of questions:", min_value=1, max_value=50, value=10)
+selected_unit = st.selectbox("Select unit:", ["Unit 1", "Unit 2", "Unit 3"])
+num_questions = st.slider("Number of questions:", min_value=1, max_value=15, value=5)
 
 if st.button("Generate Test"):
     st.write("AP Test:", selected_test)
@@ -28,6 +26,8 @@ if st.button("Generate Test"):
     if selected_unit:
         st.write("Unit:", selected_unit)
     st.write("Number of questions:", num_questions)
+    query = "Based on the units you observe, create a " + test_type + " practice test on " + selected_unit + " with " + str(num_questions) + " questions"
+    st.write(query)
+    answer = ask_cag_model("query")
     st.success("Test generated")
-    answer = ask_cag_model("Hello World")
     st.write(answer)

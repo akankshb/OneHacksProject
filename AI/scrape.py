@@ -6,7 +6,7 @@ base_dir = Path(__file__).resolve().parent.parent  # up from AI/ to OneHacksProj
 root_dir = base_dir / "ApMaterial" / "ApChem"
 print("Looking in:", root_dir)
 f = open("data/APCHEM.txt", "w")
-f.write("System:\nYou're tasks are to create full length AP Chemistry tests or short tests for a specific topic, similar to the documents that have been provided. Only the past FRQs have been provided; therefore, you will need to create the MCQ section yourself: 60 MCQ and 7 FRQ for full AP tests. Only create questions that test the topics provided in the document.\n")
+f.write("System:\nYou're tasks are to create AP Chem tests for a specific topic, similar to the documents that have been provided. Only the past FRQs have been provided; therefore, you will need to create an MCQ section when specified yourself. Only create questions that test the topics provided in the document. Give the questions first, then underneath in a new section give the answer key. ONLY FOLLOW THE DIRECTIONS!\n")
 if not root_dir.exists():
     print("Directory not found:", root_dir)
 else:
