@@ -16,7 +16,7 @@ def ask_cag_model(user_query):
     with open("./AI/data/APCHEM_courseguide_cleaned.txt", 'r') as f:
         content_pack = f.read()
 
-        prompt = content_pack + f"\n\nUser: {user_query}\n\nAnswer:"
+        prompt = f"\n\Request: {user_query}\n\nbased on this: " + content_pack 
     
     response = openai.chat.completions.create(
         model="gpt-4o",
