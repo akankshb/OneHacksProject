@@ -12,7 +12,7 @@
     To run the model, OpenAI requires you to create an OpenAI key. Store the OpenAI key in a .env file.
 
 # Data Step 3-
-    Must run scrape.py and then cleaning.py to gain the text files for the model first
+    Download or copy the test PDF files into OneHacksProject/ApMaterial/ApChem folder. Run scrape.py and then cleaning.py to gain the text files for the AI
 
 # Running the app Step 4-
-    use the command: streamlit run streamlit_app.py
+    Use the command: streamlit run streamlit_app.py to start the application in a browser window.
